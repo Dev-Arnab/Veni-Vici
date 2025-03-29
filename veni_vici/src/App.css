@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  max-width: 900px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1, p {
+  color: #333;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dog-container {
+  text-align: center;
+}
+
+.dog-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #007bff;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.breed-button, .fetch-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+}
+
+.breed-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.breed-button:hover {
+  background-color: #cc0000;
+}
+
+.fetch-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+
+.side-panel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.ban-list, .history {
+  flex: 1;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 45%;
+}
+
+.ban-list h2, .history h2 {
+  font-size: 1.2rem;
+}
+
+.ban-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ban-list li {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.ban-list li:hover {
+  text-decoration: underline;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.history-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.app-container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dog-container {
+  margin-top: 20px;
+}
+
+.dog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dog-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dog-info {
+  text-align: left;
+}
+
+.ban-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.discover-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.discover-button:hover, .ban-button:hover {
+  opacity: 0.8;
+}
